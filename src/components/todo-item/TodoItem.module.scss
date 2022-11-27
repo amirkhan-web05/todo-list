@@ -1,0 +1,20 @@
+.todo__item {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.todo__task {
+  width: 100%;
+  p {
+    color: grey;
+    font-size: 14px;
+    cursor: pointer;
+  }
+}
+
+.todo__action:last-child {
+  display: flex;
+  align-items: center;
+}
